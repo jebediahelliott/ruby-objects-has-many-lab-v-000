@@ -5,8 +5,8 @@ class Post
   @@all = []
   def initialize(title)
     @title = title
-    @@all << @title
-    binding.pry
+    @@all << self
+    
 
   end
 end
