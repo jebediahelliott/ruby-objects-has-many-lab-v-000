@@ -7,5 +7,7 @@ class Post
     @title = title
     binding.pry
     @@all << @title
+    binding.pry
+
   end
 end
